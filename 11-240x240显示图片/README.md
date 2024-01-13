@@ -1,0 +1,7 @@
+0.链接好ESP32和240显示屏。
+1.在Pycharm中运行image_to_240x240_color565.py这个文件，将test1.png图片转换成二进制数据（text_img.dat)，注意image_to_240x240_color565.py必须是在项目文件夹根目录，并跟text_img.dat在同一个文件夹。
+2.在MicroPython设备中运行micropython_recv_img_dat.py，链接上wifi，准备接收文件。把ESP32中的IP地址记下，下一个步骤中使用。
+3.在Python中运行send_img_dat_to_esp32.py，运行之前将IP地址更改为上一个步骤中记下的地址。
+4.在MicroPython设备中接收到text_img.dat后，运行11-240x240显示图片主程序。
+
+
