@@ -1,0 +1,12 @@
+ESP32左边：
+VCN（5V）→DC+
+GND→DC-
+GPIO13→IN
+
+ESP32右边：
+3V3→COM→NO→灯泡
+GND→灯泡
+
+面包板建议链接220Ω的电阻
+
+
